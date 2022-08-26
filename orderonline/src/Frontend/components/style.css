@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+.headerlist{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    font-weight: 500;
+    cursor: pointer
+}
+.frontimage{
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/banner_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+.frontimage h1,.frontimage h2{
+    color: white;
+}
+.headlineoffront{
+    text-align: center;
+}
+.mainheadoffront{
+    font-size: 70px;
+}
+.subheadoffront{
+    font-size: 50px;
+}
+.headerofmain{
+    background: rgb(5 5 5 / 0%);
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 5;
+}
+.menuoffront{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+ .menuoffront li::before {
+    content: "";
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/sprit.png) no-repeat -59px -22px;
+    width: 39px;
+    height: 37px;
+    /* position: absolute; */
+}
+.menuoffront li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 80px;
+    width: 222px;
+    /* padding: 20px 50px; */
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+.menuoffront li:not(:first-child) {
+    background-color: rgba(0, 0, 0, 0);
+}
+.menuoffront li:not(:first-child) .border{
+display: none;
+}
+.menuoffront span{
+    margin-left: 10px;
+}
+.ourmenu{
+    margin-top: -80px;
+}
+.menuoffront li::before {
+    content: "";
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/sprit.png) no-repeat -59px -22px;
+    width: 39px;
+    height: 37px;
+    /* position: absolute; */
+}
+.border{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #dee2e600!important;
+}
+.border div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent !important;
+
+}
+.border .top{
+    background-color: transparent !important;
+
+    left: 0;
+    right: 0;
+    top: -4px;
+    margin: auto;
+    background-repeat: repeat-y;
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/hover_bg.png);
+    height: 6px;
+}
+.border .bottom{
+    background-color: transparent !important;
+
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    margin: auto;
+    background-repeat: repeat-y;
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/hover_bg.png);
+    height: 6px;
+}
+.border .left{
+    background-color: transparent !important;
+
+    content: "";
+    left: -4px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-repeat: repeat-x;
+    background: url("http://glorywebsdemo.com/themeforest/html/carveordering/images/hover_Vbg.png");
+    width: 6px;
+}
+.border .right{
+    background-color: transparent !important;
+    content: "";
+    right: -3px;
+    bottom: 0;
+    top: 0;
+    background-repeat: repeat-x;
+    width: 6px;
+    background: url("http://glorywebsdemo.com/themeforest/html/carveordering/images/hover_Vbg.png");
+}
+.firstoffront{
+    
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/sprit.png) no-repeat -14px -78px;
+    width: 57px;
+    height: 40px;
+}
+.secondoffront{
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/sprit.png) no-repeat -15px -273px;
+
+    width: 175px;
+    height: 45px;
+    top: 8px;
+    right: -68px;
+}  
+
+.thirdoffront{
+
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/sprit.png)  no-repeat -14px -133px;
+    width: 57px;
+    height: 40px;
+}
+.listoficon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    width: 70%;
+    margin: auto;
+}
+#secondoffluid{
+    background-color: #f5f5f5;
+    position: relative;
+    padding: 0;
+}
+
+.listoficon li:nth-child(odd) {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.listoficon li:nth-child(odd) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.listoficon li:nth-child(odd) img {
+    padding-top: 10px;
+}
+#secondoffluid ::before{
+    content: '';
+    position: absolute;
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/border.png);
+    top: -2px;
+    width: inherit;
+    height: 7px;
+}
+#secondoffluid ::after{
+    content: '';
+    position: absolute;
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/border_hwork.png);
+    bottom: -2px;
+    width: inherit;
+    height: 7px; 
+}
+#thirdfront{
+    margin-top: 50px;
+    background: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/p_bg.jpg);
+}
+#thirdfront h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+#thirdfrond p{
+    font-size: 16px;
+    
+}
+.listofpopular{
+    display: flex;
+    width: fit-content;
+    justify-content: end;
+    margin-bottom: 55px !important;
+    position: relative;
+    /* border: 10px solid transparent;
+    border-image: url(http://glorywebsdemo.com/themeforest/html/carveordering/images/gray_Hborder.png) 15 round */
+    
+}
+.listofpopular img{
+    width: 192px;
+    height: 100%;
+}
+.listofpopular h1{
+    font-size: 26px !important;
+}
+
+.price{
+    display: inline-block;
+    font-size:26px !important;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.inn{
+    padding: 20px;
+}
+.topofprice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.butto{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
